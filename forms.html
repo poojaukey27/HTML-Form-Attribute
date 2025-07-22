@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <head>
+        <title>HTML Forms</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <h2>Personal Details</h2>
+<form action="/forms.html" method="post" id="form1" method="get" target="_blank">
+  <label for="Name"></label>
+  <select id="Name" name="Name">
+    <option value="Mr">Mr</option>
+    <option value="Miss">Miss</option>
+    <option value="Mrs">Mrs</option>
+  </select>
+
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" autofocus><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <button type="button" onclick="alert('My Details')">Submit</button><br>
+  <input type="submit" formaction="/InputType.html" value="Submit as Admin"><br>
+  <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data"><br>
+  <input type="submit" value="Submit using GET"><br>
+  <input type="submit" formmethod="post" value="Submit using POST"><br>
+  <input type="submit" formnovalidate="formnovalidate" value="Submit without validation"><br>
+  <input type="submit" formtarget="_blank" value="Submit to a new window/tab"><br>
+  </form>
+</body>
+</html>

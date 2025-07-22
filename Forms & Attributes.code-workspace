@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../1st html program"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML Forms & Atributes"
+	}
+}
